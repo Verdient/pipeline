@@ -1,0 +1,29 @@
+{
+    "name": "verdient/pipeline",
+    "description": "Pipeline",
+    "type": "library",
+    "keywords": [
+        "Pipeline"
+    ],
+    "homepage": "https://github.com/Verdient/pipeline",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Verdient.",
+            "email": "fagui.zhu@foxmail.com",
+            "homepage": "https://github.com/Verdient"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/Verdient/pipeline/issues",
+        "source": "https://github.com/Verdient/pipeline"
+    },
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Verdient\\Pipeline\\": "src"
+        }
+    }
+}
