@@ -12,8 +12,9 @@ interface StageInterface
 {
     /**
      * @param mixed $payload 荷载
+     * @param Pipeline $流水线
      * @return mixed
      * @author Verdient。
      */
-    public function __invoke($payload);
+    public function __invoke($payload, Pipeline $pipeline);
 }
